@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataVoxAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c590a4520bc2254c9fb55bd793c535738a57afb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39832b949077dc796076b1c5355402ea95c3e995")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataVoxAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataVoxAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
