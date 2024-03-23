@@ -1,5 +1,13 @@
+# Archivos de configuración de usuario de Visual Studio
+*.suo
+
+# Archivo ejecutable de aplicaciones web de .NET Core
+apphost.exe
+
+# Carpetas binarias generadas por Visual Studio
 **/bin/
 **/obj/
+
 
 *.exe
 *.dll
