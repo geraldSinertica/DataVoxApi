@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\DataVoxAPI\\DataVoxAPI.csproj": {}
+    "C:\\GITHUB\\SINERTICA\\DataVoxApi\\DataVoxAPI\\DataVoxAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\DataVoxAPI\\DataVoxAPI.csproj": {
+    "C:\\GITHUB\\SINERTICA\\DataVoxApi\\DataVoxAPI\\DataVoxAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\DataVoxAPI\\DataVoxAPI.csproj",
+        "projectUniqueName": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\DataVoxAPI\\DataVoxAPI.csproj",
         "projectName": "DataVoxAPI",
-        "projectPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\DataVoxAPI\\DataVoxAPI.csproj",
-        "packagesPath": "C:\\Users\\PARDO-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\DataVoxAPI\\obj\\",
+        "projectPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\DataVoxAPI\\DataVoxAPI.csproj",
+        "packagesPath": "C:\\Users\\cg200\\.nuget\\packages\\",
+        "outputPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\DataVoxAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PARDO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cg200\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -28,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj"
+              "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj": {
+                "projectPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj"
               },
-              "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Services\\Services.csproj"
+              "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Services\\Services.csproj": {
+                "projectPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Services\\Services.csproj"
               }
             }
           }
@@ -41,17 +46,20 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -76,22 +84,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj": {
+    "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj",
+        "projectUniqueName": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj",
         "projectName": "Infraestructure",
-        "projectPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj",
-        "packagesPath": "C:\\Users\\PARDO-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\obj\\",
+        "projectPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\cg200\\.nuget\\packages\\",
+        "outputPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PARDO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cg200\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -110,11 +123,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -150,22 +158,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Services\\Services.csproj": {
+    "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\PARDO-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Services\\obj\\",
+        "projectPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\cg200\\.nuget\\packages\\",
+        "outputPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Services\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PARDO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\cg200\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -178,8 +191,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\PARDO-PC\\Desktop\\Sinertica\\.netCore\\DataVoxAPI\\Infraestructure\\Infraestructure.csproj"
+              "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj": {
+                "projectPath": "C:\\GITHUB\\SINERTICA\\DataVoxApi\\Infraestructure\\Infraestructure.csproj"
               }
             }
           }
@@ -188,11 +201,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -214,7 +222,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
