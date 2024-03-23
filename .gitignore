@@ -1,4 +1,3 @@
-# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
 *.exe
 *.dll
 *.pdb
@@ -26,8 +25,8 @@ x64/
 x86/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
+[Bb]in/*/
+[Oo]bj/*/
 msbuild.log
 msbuild.err
 msbuild.wrn
