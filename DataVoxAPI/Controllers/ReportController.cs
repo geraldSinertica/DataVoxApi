@@ -17,30 +17,33 @@ namespace DataVoxAPI.Controllers
         {
             _configuration = configuration;
         }
+
         [HttpGet]
         [Route("PersonaFisica")]
-        public async Task<IActionResult> GetPersonReport(string identification,int idType)
+        public async Task<IActionResult> GetPersonReport(string identification, int idType)
         {
             ResponseModel response = new ResponseModel();
             try
             {
                 IServiceReport service = new ServiceReport(_configuration);
 
-                Report report =  service.getPersonReport(identification,idType);
+                var watch = System.Diagnostics.Stopwatch.StartNew();
+                Report report = service.getPersonReport(identification, idType);
+                watch.Stop();
 
                 if (report == null)
                 {
                     response.StatusCode = (int)HttpStatusCode.NotFound;
-                    response.Message = "Asset no encontrado, verifique el id";
+                    response.Message = "Asset no encontrado, verifique el id. Duración del procesamiento: " + watch.ElapsedMilliseconds + "ms";
                 }
                 else
                 {
                     response.StatusCode = (int)HttpStatusCode.OK;
-                    response.Message = "Reporte encontrado";
+                    response.Message = "Reporte encontrado. Duración del procesamiento: " + watch.ElapsedMilliseconds + "ms";
                     response.Data = report;
                 }
 
-                return Ok(response.Data);
+                return Ok(response);
             }
             catch (Exception e)
             {
