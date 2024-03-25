@@ -21,7 +21,7 @@ namespace Infraestructure.Repositorys
             Configuration = configuration;
             dsd = configuration.GetConnectionString("DataVoxConnection");
         }
-        public Report getPersonReport(string identificacion, int idType)
+        public Report getPersonReport(string username, string password, string identificacion, int idType, int queryType)
         {
             try
             {
@@ -36,8 +36,11 @@ namespace Infraestructure.Repositorys
                     using (var command = new SqlCommand("[dbo].[ConsultaPersonaFisica]", connection))
                     {
                         command.CommandType = CommandType.StoredProcedure;
+                        command.Parameters.Add(new SqlParameter("@Usuario", username));
+                        command.Parameters.Add(new SqlParameter("@Password", password));
                         command.Parameters.Add(new SqlParameter("@Identificacion", identificacion));
                         command.Parameters.Add(new SqlParameter("@TipoIdentificacion", idType));
+                        command.Parameters.Add(new SqlParameter("@TipoQuery", queryType));
                         using (var reader = command.ExecuteReader())
                         {
                             if (reader.Read())

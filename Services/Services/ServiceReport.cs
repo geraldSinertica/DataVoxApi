@@ -16,9 +16,9 @@ namespace Services.Services
         public ServiceReport(IConfiguration configuration) { 
             repository= new RepositoryReport(configuration);
         }  
-        public Report getPersonReport(string identificacion, int idType)
+        public Report getPersonReport(string user, string password, string identificacion, int idType, int queryType)
         {
-           return repository.getPersonReport(identificacion, idType);
+           return repository.getPersonReport(user, password,identificacion, idType, queryType);
         }
     }
 }

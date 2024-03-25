@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Persona Física</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="inputsContainer">
+		<label for="username">Username:</label>
+        <input type="text" id="username" value="">
+
+		<label for="password">Password:</label>
+        <input type="password" id="password" value="">
+		
+        <label for="identification">Identificación:</label>
+        <input type="text" id="identification" value="109200621">
+
+        <label for="idType">Tipo de ID:</label>
+        <select id="idType">
+            <option value="1">Cédula</option>
+            <option value="2">Pasaporte</option>
+        </select>
+
+        <label for="queryType">Tipo de Consulta:</label>
+        <select id="queryType">
+            <option value="1">Bureau</option>
+        </select>
+
+
+        <button id="submitButton">Consultar</button>
+    </div>
+    <div id="reporteContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

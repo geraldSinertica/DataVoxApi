@@ -71,7 +71,6 @@ C:\Users\PARDO-PC\Desktop\Sinertica\.netCore\DataVoxAPI\DataVoxAPI\obj\Debug\net
 C:\Users\PARDO-PC\Desktop\Sinertica\.netCore\DataVoxAPI\DataVoxAPI\obj\Debug\net8.0\DataVoxAPI.genruntimeconfig.cache
 C:\Users\PARDO-PC\Desktop\Sinertica\.netCore\DataVoxAPI\DataVoxAPI\obj\Debug\net8.0\ref\DataVoxAPI.dll
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\appsettings.Development.json
-C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\appsettings.json
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\DataVoxAPI.exe
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\DataVoxAPI.deps.json
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\DataVoxAPI.runtimeconfig.json
@@ -145,3 +144,7 @@ C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\obj\Debug\net8.0\refint\DataVoxAPI.dll
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\obj\Debug\net8.0\DataVoxAPI.pdb
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\obj\Debug\net8.0\DataVoxAPI.genruntimeconfig.cache
 C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\obj\Debug\net8.0\ref\DataVoxAPI.dll
+C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\DataVoxAPI.staticwebassets.runtime.json
+C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\wwwroot\index.html
+C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\wwwroot\script.js
+C:\GITHUB\SINERTICA\DataVoxApi\DataVoxAPI\bin\Debug\net8.0\wwwroot\styles.css

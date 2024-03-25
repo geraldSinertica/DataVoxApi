@@ -20,7 +20,7 @@ namespace DataVoxAPI.Controllers
 
         [HttpGet]
         [Route("PersonaFisica")]
-        public async Task<IActionResult> GetPersonReport(string identification, int idType)
+        public async Task<IActionResult> GetPersonReport(string username, string password, string identification, int idType, int queryType)
         {
             ResponseModel response = new ResponseModel();
             try
@@ -28,7 +28,7 @@ namespace DataVoxAPI.Controllers
                 IServiceReport service = new ServiceReport(_configuration);
 
                 var watch = System.Diagnostics.Stopwatch.StartNew();
-                Report report = service.getPersonReport(identification, idType);
+                Report report = service.getPersonReport(username, password, identification, idType, queryType);
                 watch.Stop();
 
                 if (report == null)

@@ -9,6 +9,6 @@ namespace Services.Services
 {
     public interface IServiceReport
     {
-        Report getPersonReport(string identificacion,int idType);
+        Report getPersonReport(string user, string password, string identificacion,int idType, int queryType);
     }
 }

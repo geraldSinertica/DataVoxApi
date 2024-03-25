@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#reporteContainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.telefonoItem {
+    margin-bottom: 5px;
+}
+
+.direccionItem {
+    margin-bottom: 10px;
+}
+
+.salarioItem {
+    margin-bottom: 15px;
+}
+
+.bienMuebleItem,
+.bienInmuebleItem {
+    margin-bottom: 15px;
+}
+
+.juicioItem {
+    margin-bottom: 10px;
+}

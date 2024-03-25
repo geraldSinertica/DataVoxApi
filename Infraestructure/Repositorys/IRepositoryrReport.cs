@@ -9,7 +9,7 @@ namespace Infraestructure.Repositorys
 {
     public interface IRepositoryrReport
     {
-        Report getPersonReport(string identificacion, int idType);
+        Report getPersonReport(string user, string password, string identificacion, int idType, int queryType);
 
     }
 }
